@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+}
+
+#username {
+    width:500px;
+    height:300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputNickname {
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#button {
+    padding: auto;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px;
+    border-radius: 30%;
+
+}
+
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    color: white;
+}
+
+
+#site-container {
+    margin-top: 3rem;
+    width: 70rem;
+    height: 40rem;
+    
+    border-style: solid;
+    border-color: white;
+}
+
+#header {
+    display: flex;
+}
+
+#nickname {
+    width: 28rem;
+    height: 7rem;
+
+    font-size: 3rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-color: white;
+}
+
+#servername {
+    width: 57rem;
+    height: 7rem;
+
+    border-style: solid;
+    border-color: white;
+
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 69.7rem;
+    height: 33rem;
+
+    font-size: 3rem;
+
+    display:flex;
+    justify-content: left;
+    align-items: top;
+
+    border-style: solid;
+    border-color: white;
+}
+
+#leftside {
+    width: 28rem;
+    height: 32.7rem;
+
+    padding-top: 1rem;
+
+    font-size: 1.5rem;
+
+    display: block;
+    text-align: center;
+
+    border-style: solid;
+    border-color: white;
+}
+
+#whoisthis {
+    margin-bottom: 1rem;
+}
+
+#chat {
+    width: 57.5rem;
+    height: 25.7rem;
+    
+    padding-right: 2rem;
+
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+
+
+    border-style: solid;
+    border-color: white;
+}
+
+.message {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.receivedMessage {
+    margin-left: 1.1rem;
+}
+
+#send {
+    width: 57.5rem;
+    height: 7rem;
+    
+    display: block;
+    justify-content: center;
+
+    border-style: solid;
+    border-color: white;
+}
+
+#sendMessage {
+    width: 50.5rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    border-radius: 10%;
+    padding: 1rem;
+
+    border-style: solid;
+    border-color: red;
+}
+
+.button {
+        padding: auto;
+        margin-left: 0.3rem;
+        width: 3rem;
+        height: 1.5rem;
+        border-radius: 30%;
+}
